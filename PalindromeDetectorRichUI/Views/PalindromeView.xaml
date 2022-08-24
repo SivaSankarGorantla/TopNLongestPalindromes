@@ -1,0 +1,81 @@
+﻿<Window
+    x:Class="PalindromeDetectorRichUI.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Palindrome Detector"
+    Width="800"
+    Height="300"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="0,0,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Content="Input:"
+                FontSize="18" />
+
+            <TextBox
+                Name="InputStringTextBox"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5,0,5,0"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                FontSize="18"
+                Text="{Binding Path=Input}" />
+
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                Width="200"
+                Height="30"
+                Margin="5,0,0,0"
+                HorizontalAlignment="Left"
+                Click="FindPalindromes_Click"
+                Content="Find" />
+
+            <Label
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="5,0,5,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Content="Output:"
+                FontSize="18" />
+
+            <ItemsControl
+                Name="ItemsControl"
+                Grid.Row="4"
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                ItemsSource="{Binding Path=Palindromes}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock FontSize="18" Text="{Binding}" />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+
+        </Grid>
+    </ScrollViewer>
+</Window>

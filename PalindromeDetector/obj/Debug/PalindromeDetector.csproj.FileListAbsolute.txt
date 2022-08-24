@@ -1,0 +1,10 @@
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\bin\Debug\PalindromeDetector.exe.config
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\bin\Debug\PalindromeDetector.exe
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\bin\Debug\PalindromeDetector.pdb
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\bin\Debug\PalindromeDetectorModel.dll
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\bin\Debug\PalindromeDetectorModel.pdb
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\obj\Debug\PalindromeDetector.csproj.AssemblyReference.cache
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\obj\Debug\PalindromeDetector.csproj.CoreCompileInputs.cache
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\obj\Debug\PalindromeDetector.csproj.CopyComplete
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\obj\Debug\PalindromeDetector.exe
+C:\SoftwareDevelopment\PalindromeDetector\PalindromeDetector\PalindromeDetector\obj\Debug\PalindromeDetector.pdb
