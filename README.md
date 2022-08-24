@@ -41,7 +41,7 @@ Craftsmanship by Robert C.Martin.
 
 1. A string with a single character is not considered a palindrome. 
 2. The application will print the top 3 longest palindromes. If in a given string only one palindrome is present, it displays that one palindrome only. We can add a check it should display the result only when the list contains three unique palindromes. 
-3. I tried to make the application responsive so that the user can play with the rest of the application. It is possible to discard the current session and start a new session by entering a new string in the input text box and clicking on the button. 
+3. I tried to make the application responsive so that the user can play with the rest of the application. It is possible to discard the current session and start a new session by entering a new string in the input text box and clicking on the button.
 4. We can further optimize it, however, since it is advised not to spend more than a couple of ours, submitting it as is. 
 
 ### More details about projects ###
@@ -52,3 +52,9 @@ The solution is created using VS2019 and on.NetFrameWork 4.8. It contains the fo
 2. PalindromeDetectorModel: This is a model layer that contains all the business logic. 
 3. PalindromeDetectorModelTests: Unit test project for PalindromeDetectorModel project.
 4. PalindromeDetectorClientTests : Unit test project for PalindromeDetectorModel project. Writing unit test for view models still pending. 
+
+### Improvements to be done* ###
+1. Using commands instead of hanlding events in the code behind. 
+2. Providing a cancel button for ease of use.
+3. Showing the progress bar.
+4. Writing unit tests for VMs.
