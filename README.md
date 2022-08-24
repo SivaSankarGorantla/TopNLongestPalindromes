@@ -1,7 +1,7 @@
 ### Task ###
 
 Write an application that finds the 3 longest unique palindromes in a supplied 
-string. For the 3 longestpalindromes, report the palindrome, start index and 
+string. For the 3 longest palindromes, report the palindrome, start index and 
 length, in descending order of length.
 
 ### Example Output ###
@@ -31,27 +31,24 @@ Craftsmanship by Robert C.Martin.
 
 ### Instructions to run the solution ###
 
-1. Clone the branch and open the PalindromeDetector.sln in Visual studio. FYI, I used Visual studio 2019.
-2. Set PalindromeDetectorClient as start up project. 
+1. Clone the branch and open the PalindromeDetector.sln in Visual studio. FYI, I used Visual Studio 2019.
+2. Set PalindromeDetectorClient as a start-up project. 
 3. Build the solution either in debug mode or release mode. 
 4. Run the solution. 
-5. When the application is running enter the input string the text boxt next to input. And click on the Find button to see the results. 
+5. When the application is running enter the input string in the text box next to the input. And click on the Find button to see the results. 
 
 ### Assumptions ###
 
-1. A string with single character is not considered as palindrome. 
-2. The application will print top 3 longest palindromes. If in a given string only one palindrome present, it displays that one pallindrome only. We can add a check it should display the result only when the list contains three unique palindromes. 
-3. I tried to make the application responsive so that user can play with rest of the application. It is possible to discard the current session and start a new session by entering new string in the input text box and clicking on the button. 
-4. We can further optimize it however, since it is adviced not to spend more than couple of ours, submitting it as is. 
+1. A string with a single character is not considered a palindrome. 
+2. The application will print the top 3 longest palindromes. If in a given string only one palindrome is present, it displays that one palindrome only. We can add a check it should display the result only when the list contains three unique palindromes. 
+3. I tried to make the application responsive so that the user can play with the rest of the application. It is possible to discard the current session and start a new session by entering a new string in the input text box and clicking on the button. 
+4. We can further optimize it, however, since it is advised not to spend more than a couple of ours, submitting it as is. 
 
 ### More details about projects ###
 
-The solution is created using VS2019 and on .NetFrameWork 4.8. It contains following projects.
+The solution is created using VS2019 and on.NetFrameWork 4.8. It contains the following projects.
 
-1. PalindromeDetectorClient: This is a WPF project. This needs to be set as start up project in visual studio to run the application. 
-2. PalindromeDetectorModel: This is model layer that contains all the business logic. 
-3. PalindromeDetectorModelTests : Unit test project for PalindromeDetectorModel project.
+1. PalindromeDetectorClient: This is a WPF project. This needs to be set as a start-up project in visual studio to run the application. 
+2. PalindromeDetectorModel: This is a model layer that contains all the business logic. 
+3. PalindromeDetectorModelTests: Unit test project for PalindromeDetectorModel project.
 4. PalindromeDetectorClientTests : Unit test project for PalindromeDetectorModel project. Writing unit test for view models still pending. 
-
-
-
